@@ -23,6 +23,9 @@ $wgMessagesDirs['GoogleAppEngine'] = __DIR__ . '/i18n';
 
 $wgAutoloadClasses['ApiGAEJobQueue'] = __DIR__ . '/job/ApiGAEJobQueue.php';
 $wgAutoloadClasses['JobQueueGAE'] = __DIR__ . '/job/JobQueueGAE.php';
+$wgAutoloadClasses['GoogleAppEngineHooks'] = __DIR__ . '/GoogleAppEngineHooks.php';
+
+$wgHooks['AlternateUserMailer'][] = 'GoogleAppEngineHooks::onAlternateUserMailer';
 
 $wgAPIModules['gaejobqueue'] = 'ApiGAEJobQueue';
 
