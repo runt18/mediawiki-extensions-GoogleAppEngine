@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kunal Mehta"
+        ]
+    },
+    "gae-desc": "Provides enhancements to wikis running on GoogleAppEngine"
+}
