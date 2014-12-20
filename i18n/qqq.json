@@ -4,5 +4,10 @@
 			"Kunal Mehta"
 		]
 	},
-	"gae-desc": "{{desc|name=GoogleAppEngine|url=http://www.mediawiki.org/wiki/Extension:GoogleAppEngine}}"
+	"gae-desc": "{{desc|name=GoogleAppEngine|url=http://www.mediawiki.org/wiki/Extension:GoogleAppEngine}}",
+	"apihelp-gaejobqueue-description": "{{doc-apihelp-description|gaejobqueue}}",
+	"apihelp-gaejobqueue-param-namespace": "{{doc-apihelp-param|gaejobqueue|namespace}}",
+	"apihelp-gaejobqueue-param-titletext": "{{doc-apihelp-param|gaejobqueue|titletext}}",
+	"apihelp-gaejobqueue-param-type": "{{doc-apihelp-param|gaejobqueue|type}}",
+	"apihelp-gaejobqueue-param-params": "{{doc-apihelp-param|gaejobqueue|params}}"
 }

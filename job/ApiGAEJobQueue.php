@@ -27,6 +27,9 @@ class ApiGAEJobQueue extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getDescription() {
 		return 'Internal API module to run the JobQueue. External usage is not allowed.';
 	}
@@ -52,6 +55,9 @@ class ApiGAEJobQueue extends ApiBase {
 		);
 	}
 
+	/**
+	 * @deprecated since MediaWiki core 1.25
+	 */
 	public function getParamDescription() {
 		return array(
 			'namespace' => 'Numerical namespace id',
