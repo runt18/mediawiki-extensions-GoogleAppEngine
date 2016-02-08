@@ -17,6 +17,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GoogleAppEngine',
 	'descriptionmsg' => 'gae-desc',
 	'version' => '0.1.0',
+	'license-name' => 'GPL-3.0+',
 );
 
 $wgMessagesDirs['GoogleAppEngine'] = __DIR__ . '/i18n';
